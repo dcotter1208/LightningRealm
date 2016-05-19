@@ -9,23 +9,33 @@
 /* Begin PBXBuildFile section */
 		437A22C31CEBFF680008D152 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 437A22C21CEBFF680008D152 /* main.m */; };
 		437A22C61CEBFF680008D152 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 437A22C51CEBFF680008D152 /* AppDelegate.m */; };
-		437A22C91CEBFF680008D152 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 437A22C81CEBFF680008D152 /* ViewController.m */; };
 		437A22CC1CEBFF680008D152 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 437A22CA1CEBFF680008D152 /* Main.storyboard */; };
 		437A22CE1CEBFF680008D152 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 437A22CD1CEBFF680008D152 /* Assets.xcassets */; };
 		437A22D11CEBFF680008D152 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 437A22CF1CEBFF680008D152 /* LaunchScreen.storyboard */; };
+		437A22ED1CECB0EC0008D152 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 437A22EC1CECB0EC0008D152 /* Person.m */; };
+		437A22F01CECC38A0008D152 /* PeopleTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 437A22EF1CECC38A0008D152 /* PeopleTVC.m */; };
+		43EB2D891CED2D6B0008C3FC /* AddPersonVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 43EB2D881CED2D6B0008C3FC /* AddPersonVC.m */; };
+		4EA9E2D77F83B85E7DB2BFA5 /* libPods-LightningRealm.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 39B00A19367E81DBB7418D61 /* libPods-LightningRealm.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		39B00A19367E81DBB7418D61 /* libPods-LightningRealm.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LightningRealm.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		437A22BE1CEBFF680008D152 /* LightningRealm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LightningRealm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		437A22C21CEBFF680008D152 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		437A22C41CEBFF680008D152 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		437A22C51CEBFF680008D152 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		437A22C71CEBFF680008D152 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		437A22C81CEBFF680008D152 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		437A22CB1CEBFF680008D152 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		437A22CD1CEBFF680008D152 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		437A22D01CEBFF680008D152 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		437A22D21CEBFF680008D152 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		437A22EB1CECB0EC0008D152 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		437A22EC1CECB0EC0008D152 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		437A22EE1CECC38A0008D152 /* PeopleTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeopleTVC.h; sourceTree = "<group>"; };
+		437A22EF1CECC38A0008D152 /* PeopleTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PeopleTVC.m; sourceTree = "<group>"; };
+		43EB2D871CED2D6B0008C3FC /* AddPersonVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddPersonVC.h; sourceTree = "<group>"; };
+		43EB2D881CED2D6B0008C3FC /* AddPersonVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddPersonVC.m; sourceTree = "<group>"; };
+		84B57DAF6E4133302985AC45 /* Pods-LightningRealm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LightningRealm.release.xcconfig"; path = "Pods/Target Support Files/Pods-LightningRealm/Pods-LightningRealm.release.xcconfig"; sourceTree = "<group>"; };
+		DC9DF0A610FF06C09E4D70F4 /* Pods-LightningRealm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LightningRealm.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LightningRealm/Pods-LightningRealm.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EA9E2D77F83B85E7DB2BFA5 /* libPods-LightningRealm.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +55,8 @@
 			children = (
 				437A22C01CEBFF680008D152 /* LightningRealm */,
 				437A22BF1CEBFF680008D152 /* Products */,
+				F048589A6A04F0F1B37ECAB5 /* Pods */,
+				9528E2E115B309836DC5AF8E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,8 +73,12 @@
 			children = (
 				437A22C41CEBFF680008D152 /* AppDelegate.h */,
 				437A22C51CEBFF680008D152 /* AppDelegate.m */,
-				437A22C71CEBFF680008D152 /* ViewController.h */,
-				437A22C81CEBFF680008D152 /* ViewController.m */,
+				437A22EE1CECC38A0008D152 /* PeopleTVC.h */,
+				437A22EF1CECC38A0008D152 /* PeopleTVC.m */,
+				43EB2D871CED2D6B0008C3FC /* AddPersonVC.h */,
+				43EB2D881CED2D6B0008C3FC /* AddPersonVC.m */,
+				437A22EB1CECB0EC0008D152 /* Person.h */,
+				437A22EC1CECB0EC0008D152 /* Person.m */,
 				437A22CA1CEBFF680008D152 /* Main.storyboard */,
 				437A22CD1CEBFF680008D152 /* Assets.xcassets */,
 				437A22CF1CEBFF680008D152 /* LaunchScreen.storyboard */,
@@ -79,6 +96,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		9528E2E115B309836DC5AF8E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				39B00A19367E81DBB7418D61 /* libPods-LightningRealm.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F048589A6A04F0F1B37ECAB5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DC9DF0A610FF06C09E4D70F4 /* Pods-LightningRealm.debug.xcconfig */,
+				84B57DAF6E4133302985AC45 /* Pods-LightningRealm.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +120,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 437A22D51CEBFF680008D152 /* Build configuration list for PBXNativeTarget "LightningRealm" */;
 			buildPhases = (
+				FE03A5809B19C22E30617920 /* 📦 Check Pods Manifest.lock */,
 				437A22BA1CEBFF680008D152 /* Sources */,
 				437A22BB1CEBFF680008D152 /* Frameworks */,
 				437A22BC1CEBFF680008D152 /* Resources */,
+				5355E0DC9CEF157C66F8ED65 /* 📦 Embed Pods Frameworks */,
+				83B70353CCCE5C03B9944132 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -144,14 +181,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5355E0DC9CEF157C66F8ED65 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LightningRealm/Pods-LightningRealm-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		83B70353CCCE5C03B9944132 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LightningRealm/Pods-LightningRealm-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE03A5809B19C22E30617920 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		437A22BA1CEBFF680008D152 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				437A22C91CEBFF680008D152 /* ViewController.m in Sources */,
+				437A22F01CECC38A0008D152 /* PeopleTVC.m in Sources */,
 				437A22C61CEBFF680008D152 /* AppDelegate.m in Sources */,
+				437A22ED1CECB0EC0008D152 /* Person.m in Sources */,
 				437A22C31CEBFF680008D152 /* main.m in Sources */,
+				43EB2D891CED2D6B0008C3FC /* AddPersonVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +350,7 @@
 		};
 		437A22D61CEBFF680008D152 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC9DF0A610FF06C09E4D70F4 /* Pods-LightningRealm.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LightningRealm/Info.plist;
@@ -274,6 +362,7 @@
 		};
 		437A22D71CEBFF680008D152 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84B57DAF6E4133302985AC45 /* Pods-LightningRealm.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LightningRealm/Info.plist;
@@ -302,6 +391,7 @@
 				437A22D71CEBFF680008D152 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
