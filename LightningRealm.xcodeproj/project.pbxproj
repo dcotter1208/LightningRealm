@@ -50,6 +50,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		43417DD91CEF40DC00146A17 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				437A22EB1CECB0EC0008D152 /* Person.h */,
+				437A22EC1CECB0EC0008D152 /* Person.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		437A22B51CEBFF680008D152 = {
 			isa = PBXGroup;
 			children = (
@@ -77,8 +86,7 @@
 				437A22EF1CECC38A0008D152 /* PeopleTVC.m */,
 				43EB2D871CED2D6B0008C3FC /* AddPersonVC.h */,
 				43EB2D881CED2D6B0008C3FC /* AddPersonVC.m */,
-				437A22EB1CECB0EC0008D152 /* Person.h */,
-				437A22EC1CECB0EC0008D152 /* Person.m */,
+				43417DD91CEF40DC00146A17 /* Model */,
 				437A22CA1CEBFF680008D152 /* Main.storyboard */,
 				437A22CD1CEBFF680008D152 /* Assets.xcassets */,
 				437A22CF1CEBFF680008D152 /* LaunchScreen.storyboard */,
