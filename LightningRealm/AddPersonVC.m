@@ -30,13 +30,15 @@
 }
 
 - (IBAction)savePerson:(id)sender {
-
+    
     NSString *name = _nameTF.text;
     int age = [_ageTF.text intValue];
 
     if ([_nameTF.text isEqualToString:@""] || [_ageTF.text isEqualToString:@""]) {
         NSLog(@"Please make sure the person has a name and an age.");
     } else if (_person == nil) {
+        
+        //**************** Add TO REALM ***************
         [_realm beginWriteTransaction];
         NSString *uniqueID = [[NSUUID UUID] UUIDString];
         _person = [Person initWithName:name age:age uniqueID:uniqueID];
@@ -44,6 +46,8 @@
         [self resetTextFields];
         [self resetPersonObject];
     } else {
+        
+        //**************** UPDATE IN REALM ***************
         [_realm beginWriteTransaction];
         _person.name = name;
         _person.age = age;
@@ -51,10 +55,11 @@
         [self resetTextFields];
         [self resetPersonObject];
     }
-
 }
 
 -(void)writeToRealm:(Person *)person {
+    
+    //**************** ADD OR UPDATE REALM OBJECT ***************
     [_realm addOrUpdateObject:person];
     [_realm commitWriteTransaction];
 }

@@ -19,8 +19,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    //********** INITIALIZE A REALM OBJECT ************
     _realm = [RLMRealm defaultRealm];
+    
+    //********** QUERY ALL THE REALM OBJECTS FOR THE PERSON CLASS ***********
     _people = [Person allObjects];
+    
+    //********** PRINT REALM FILE PATH ***********
     NSLog(@"%@", _realm.configuration.fileURL);
     
 }
@@ -50,6 +55,8 @@
 
 -(void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath {
     if (editingStyle == UITableViewCellEditingStyleDelete) {
+        
+        //**************** REMOVE OBJECT FROM REALM ***************
         Person *person = [_people objectAtIndex:indexPath.row];
         [self removeFromRealm:person];
         [_peopleTableView reloadData];
@@ -62,10 +69,11 @@
         NSIndexPath *selectedIndex = [_peopleTableView indexPathForSelectedRow];
         AddPersonVC *destinationVC = (AddPersonVC *)segue.destinationViewController;
         destinationVC.person = [_people objectAtIndex:selectedIndex.row];
+        
     }
-    
 }
 
+//*************** FUNCTION THAT REMOVES AN OBJECT FROM REALM **************
 -(void)removeFromRealm:(Person *)person {
     [_realm beginWriteTransaction];
     [_realm deleteObject:person];
